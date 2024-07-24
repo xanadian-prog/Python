@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # OpenWeatherMap API key
-API_KEY = 'personalkey'  # Change it to key you get from Openweathermap.org website
+API_KEY = 'aa8eb011e79242fcb10be528aa88c52c'  # This is the OpenWeatherMap API key I got after registering on the website.
 CITY = 'London'
 COUNTRY = 'uk'
 URL = f'http://api.openweathermap.org/data/2.5/weather?q={CITY},{COUNTRY}&appid={API_KEY}&units=metric'
